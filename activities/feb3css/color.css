@@ -2,6 +2,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(151, 106, 106);
 }
+header{
+    background-color: rgb(246, 124, 17);
+}
 footer p {
     color: #ff0000;
 }
