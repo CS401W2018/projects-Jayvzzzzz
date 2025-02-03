@@ -3,10 +3,10 @@ body {
     background-color: rgb(151, 106, 106);
 }
 footer p {
-    color: red;
+    color: #ff0000;
 }
 #firstpar {
-    color: aquamarine;
+    color: #f96;
 }
 .coral {
     color: coral;
