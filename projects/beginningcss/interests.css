@@ -1,0 +1,17 @@
+body {
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(62, 88, 160);
+    font-size: medium;
+}
+.center {
+    text-align: center;
+}
+.bigger {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(39, 72, 255);
+}
+#why {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
