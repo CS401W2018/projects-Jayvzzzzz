@@ -19,9 +19,15 @@ body {
 .stats{
     color: rgb(44, 44, 187);
 }
+.de-emphasize{
+    color: rgb(31, 130, 160);
+}
 .bold{
     font-weight: bolder;
 }
 .title{
     font-stretch: semi-expanded;
+}
+.qcolor{
+    color: bisque;
 }
