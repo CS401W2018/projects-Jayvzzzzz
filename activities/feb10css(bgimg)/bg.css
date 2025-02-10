@@ -1,0 +1,16 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('animebg.jpg');
+    background-size: 55cm;
+    color: rgb(10, 211, 247);
+}
+header {
+    background-image: url('lightblue.jpg');
+    background-repeat: no-repeat;
+    color: rgb(74, 76, 78);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mylist {
+    list-style: none;
+    /* no bullet points */
+}
