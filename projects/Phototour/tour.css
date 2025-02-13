@@ -1,0 +1,37 @@
+header {
+    color: blue;
+    background-image: url('flag.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+body {
+    background-image: url('Mt.Fuji.jpg');
+    background-repeat: repeat;
+    color: rgb(253, 253, 253);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.list {
+    list-style-image: url('Circle.png');
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.welcome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 130%;
+    color: rgb(28, 13, 196);
+}
+.about {
+    color: rgb(33, 17, 208);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.current {
+    color: rgb(3, 40, 41);
+}
+footer {
+    color: rgb(0, 17, 250);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
