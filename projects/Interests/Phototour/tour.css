@@ -20,17 +20,18 @@ body {
 .welcome {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    font-size: 160%;
+    font-size: 130%;
     color: rgb(28, 13, 196);
 }
 .about {
-    color: rgb(255, 255, 255);
+    color: rgb(33, 17, 208);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 .current {
     color: rgb(3, 40, 41);
 }
 footer {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 17, 250);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
