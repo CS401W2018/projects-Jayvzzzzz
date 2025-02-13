@@ -2,7 +2,7 @@ header {
     color: blue;
     background-image: url('flag.jpg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: top right;
 }
 
 body {
