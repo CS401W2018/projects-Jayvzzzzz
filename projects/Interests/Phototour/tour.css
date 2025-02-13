@@ -2,7 +2,7 @@ header {
     color: blue;
     background-image: url('flag.jpg');
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: bottom right;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 130%;
-    color: rgb(28, 13, 196);
+    color: rgb(255, 255, 255);
 }
 .about {
     color: rgb(33, 17, 208);
