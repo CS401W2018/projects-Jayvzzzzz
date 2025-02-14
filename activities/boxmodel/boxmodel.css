@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(230, 165, 105);
+}
+header {
+    background-color: burlywood;
+    padding: 30px 10px 15px 10px;
+    margin: 25px;
+    width: 80%;
+    overflow: visible;
+}
+header h1 {
+    border: 5px ridge #f07400; 
+    border-radius: 15%;
+}
+.flag {
+    width: auto;
+    border: thin solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.flag img {
+    width: 50%;
+}
