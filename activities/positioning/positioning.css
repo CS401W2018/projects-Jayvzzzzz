@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.map img {
+    width: 100%
+}
+.map {
+    width: 250px;
+    border: thin solid black;
+    box-shadow: 5px 5px 4px black;
+    font-size: 8pt;
+}
+.clear{
+    clear: both;
+}
+.floating{
+    float: right;
+}
+.moving {
+    position: fixed;
+    top: 600px;
+    right: 10px;
+}
+nav a {
+    background-color: aqua;
+    display: block ;
+    padding: 10px 5px;
+    border-bottom: 3px solid white;
+}
