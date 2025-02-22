@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(231, 194, 148);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.floating {
+    float: left;
+    border: thin solid rgb(180, 106, 106);
+    border-radius: 10px;
+    text-align: center;
+}
+#wrapper {
+    background-color: bisque;
+    width: 900px;
+    margin: auto;
+    border: thick solid black;
+    border-radius: 10px;
+}
+.uzumaki {
+    background-color: rgb(243, 205, 100);
+    width: 300px;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 35%;
+    height: auto;
+    box-shadow: 5px 5px;
+}
+nav{
+    text-align: center;
+    height: 5px;
+}
+nav a {
+    display: block;
+    padding: 5px 9px;
+    background-color: rgb(194, 156, 98);
+    margin-right: 120px;
+    margin-left: 110px;
+    float: left;
+}
+nav a:hover {
+    color:black;
+    text-decoration: underline;
+}
+.tails {
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+}
+div h2 {
+    text-align: center;
+    margin-top: -2%;
+    margin-left: 30px;
+}
+main h1 {
+    margin-top: 50px;
+    margin-left: 150px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+main h3 {
+    font-size: x-large;
+
+}
+main footer {
+    font-size: larger;
+    text-transform: lowercase;
+    background-image: url(konoha.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 98%;
+}
+.emphasis {
+    background-color: aqua;
+    width: 370px;
+    margin-left: 55%;
+    box-shadow: 5px 5px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 90%;
+}
