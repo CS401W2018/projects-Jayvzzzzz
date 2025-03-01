@@ -3,14 +3,12 @@ body {
     background-color: rgb(223, 168, 137);
 }
 header {
-    display: block;
-    margin-inline: 300px;
     background-color: antiquewhite;
     text-align: center;
 }
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 5px;
     margin: 10px;
 }
@@ -55,7 +53,7 @@ footer {grid-area: footer;}
     border: solid 2px;
 }
 aside {
-    width: 200px;
+    width: 250px;
     text-align: center;
 }
 .wrapper {
@@ -91,6 +89,11 @@ footer {
     margin-left: 20px;
     column-gap: 400px;
 }
-footer p {
-    text-align: left;
+footer a {
+    text-decoration: none;
+    font-size: large;
+    margin-bottom: 10px;
+}
+footer a:hover {
+    color: black;
 }
