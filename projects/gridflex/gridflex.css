@@ -64,11 +64,11 @@ main { grid-area: main; }
 footer { grid-area: footer; }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    padding: 10px;
 }
 
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
@@ -84,7 +84,7 @@ footer { grid-area: footer; }
 
 .pic {
     width: 250px;
-    height: 240px;
+    height: 250px;
     box-shadow: 2px 2px;
     border: solid 2px;
 }
