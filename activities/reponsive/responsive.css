@@ -57,6 +57,10 @@ main {
     .feature {
         order: -1;
     }
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 @media ONLY screen and (max-width: 600px) {
