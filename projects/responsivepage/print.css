@@ -1,6 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: darksalmon;
+    text-align: center;
 }
 header h1{
     text-align: center;
@@ -39,5 +40,17 @@ main {
     margin: 0;
 }
 .card img {
+    width: 100%;
+}
+.card2 {
+    border: thick solid black;
+    box-shadow: 3px 3px 3px rgb(46, 31, 31);
+    width: 200px;
+    height: 450px;
+}
+.card2 figure {
+    margin: 0;
+}
+.card2 img {
     width: 100%;
 }
