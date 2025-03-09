@@ -1,0 +1,43 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darksalmon;
+}
+header h1{
+    text-align: center;
+    background-color: rgb(230, 91, 27);
+    margin: 0;
+}
+nav {
+    display: none;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    background-color: rgba(202, 158, 105, 0.801);
+    color: rgb(29, 27, 26);
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+    background-color: rgb(231, 150, 27);
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main {
+    display: flex;
+}
+.card {
+    border: thick solid black;
+    box-shadow: 3px 3px 3px rgb(46, 31, 31);
+    width: 200px;
+}
+.card figure {
+    margin: 0;
+}
+.card img {
+    width: 100%;
+}
