@@ -7,6 +7,15 @@ header h1{
     background-color: rgb(230, 91, 27);
     margin: 0;
 }
+.top {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+}
+.info {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -32,17 +41,26 @@ nav a:hover {
 main {
     display: flex;
 }
-.card {
-    border: thick solid black;
-    box-shadow: 3px 3px 3px rgb(46, 31, 31);
-    width: 200px;
+.card2 {
+    width: 20%;
     margin: 5px;
+}
+.card2 img {
+    width: 100%;
+}
+ul {
+    font-size: 15px;
+}
+.card {
+    box-shadow: 5px 5px 5px rgb(175, 127, 127);
+    width: 375px;
+    margin: 10px;
 }
 .card figure {
     margin: 0;
 }
 .card img {
-    width: 100%;
+    width: 90%;
 }
 
 @media ONLY screen and (max-width: 900px) {
@@ -51,6 +69,10 @@ main {
         align-items: center;
     }
     .card {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    .card2 {
         margin-bottom: 20px;
         width: 90%;
     }
@@ -71,6 +93,9 @@ main {
         border-bottom: thin solid #fff;
     }
     .card {
+        margin-bottom: 20px;
+    }
+    .card2 {
         margin-bottom: 20px;
     }
 }
