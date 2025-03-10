@@ -1,0 +1,10 @@
+body {
+    font-family: cursive;
+}
+nav a {
+    text-decoration: none;
+}
+table, th, td {
+    box-shadow: 2px 2px 2px;
+    border: 1px solid black;
+}
