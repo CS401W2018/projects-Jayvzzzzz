@@ -16,17 +16,20 @@
     </nav>
     <main>
         <h1>Tables</h1>
-        <table>
-            <tr>
-                <th><a href="#">Department</a></th>
-                <th>Number</th>
-                <th>Time</th>
-                <th>Location</th>
-                <th>Credits</th>
-            </tr>
+        <table class="schedule">
+            <caption>Course Schedule</caption>
+            <thead>
+                <tr>
+                    <th><a href="#">Department</a></th>
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
             <tr>
                 <td>CS</td>
-                <td rowspan="">140</td>
+                <td rowspan="2">140</td>
                 <td>11:00-11:50 AM</td>
                 <td>P2</td>
                 <td>3</td>
@@ -50,15 +53,13 @@
             </tr>
             <tr>
                 <th colspan="4">Total Credits</th>
-                <th> <p>15</p></th>
+                <th> <p>9</p></th>
             </tr>
         </table>
-        <h3>When do you use a table?</h3>
-        <p>- When you have data to be organized</p>
-        <h3>When do you not use a table?</h3>
-        <p>- Don't use it to layout elements in a page</p>
-        <h3>When do you need to do extra work for table accessibility?</h3>
-        <p>- If the table design is complex</p>
+        <h3>Why don't we use the border attribute?</h3>
+        <p>It overpowers the CSS</p>
+        <h3>What is the easiest way to color every other row a different color?</h3>
+        <p>Use the "nth-child" tag</p>
     </main>
     <footer>
         <p>&copy;John Vincent Vicente 2025</p>
