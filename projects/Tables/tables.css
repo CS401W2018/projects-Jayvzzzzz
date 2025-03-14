@@ -1,0 +1,15 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.stocks {
+    box-shadow: 5px 6px 8px;
+    border-spacing: 5px;
+    border-radius: 10px;
+}
+.stocks th, .stocks td {
+    border: 1px solid;
+    border-radius: 4px;
+}
+.stocks td:nth-child(odd) {
+    background-color: rgb(146, 228, 150);
+}

@@ -26,9 +26,6 @@ a {
 .schedule tfoot tr {
     background-color: beige;
 }
-.odd {
-    background-color: rgb(201, 124, 31);
-}
 .schedule tr:nth-child(even) {
     background-color: blanchedalmond;
 }
