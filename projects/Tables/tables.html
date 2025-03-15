@@ -8,46 +8,65 @@
 </head>
 <body>
     <header>
-        <h1>Data</h1>
+        <h1>Project - Tables</h1>
     </header>
     <nav>
-        <a href="#">Link </a> <a href="#">Link </a> <a href="#">Link </a>
+        <a href="#">Nvidia</a> <a href="#">Tesla</a> 
+        <a href="#">Amazon</a> <a href="#">Meta</a>
     </nav>
     <main>
-        <h1>Tables</h1>
+        <h2>Tables</h2>
+        <div class="wrapper">
+            <aside>
+                <h3>Description</h3>
+                <h3>This table is about some of the current stocks exchange values. It contains the name of the stock, how much it's worth per share, and what are the 52 week highs and lows of it. This table can be helpful for people who wants to get started with stocks trading.</h3>
+            </aside>
         <table class="stocks">
-            <caption><h2>Stocks Exchange</h2></caption>
+            <caption><h3>Stocks Exchange</h3></caption> 
             <thead>
                 <tr>
                     <th>Stock Name</th>
-                    <th>Shares</th>
-                    <th>Value</th>
+                    <th>Average Cost</th>
+                    <th>Average Volume</th>
                     <th>52 Week High</th>
                     <th>52 Week Low</th>
                 </tr>
             </thead>
+            <tbody>
             <tr>
-                <td>CS</td>
-                <td>140</td>
-                <td>11:00-11:50 AM</td>
-                <td>11</td>
-                <td>11</td>
+                <td>Nvidia</td>
+                <td>$121.49</td>
+                <td>305.88M</td>
+                <td>$153.13</td>
+                <td>$75.61</td>
             </tr>
             <tr>
-                <td>IT</td>
-                <td>124</td>
-                <td>10:00-11:00 AM</td>
-                <td>11</td>
-                <td>11</td>
+                <td>Tesla</td>
+                <td>$249.84</td>
+                <td>106.52M</td>
+                <td>$488.54</td>
+                <td>$138.80</td>
             </tr>
             <tr>
-                <td>EIL</td>
-                <td>201</td>
-                <td>9:00-10:00 AM</td>
-                <td>11</td>
-                <td>11</td>
+                <td>Amazon</td>
+                <td>$198.02</td>
+                <td>46.38M</td>
+                <td>$242.52</td>
+                <td>$151.61</td>
             </tr>
+            <tr>
+                <td>Meta</td>
+                <td>$607.78</td>
+                <td>16.49M</td>
+                <td>$740.91</td>
+                <td>$414.50</td>
+            </tr>
+        </tbody>
+        <tr>
+            <td colspan=5 class="bottom">Stocks Exchange Updated as of 3/14/2025</td>
+        </tr>
         </table>
+        </div>
     </main>
     <footer>
         <p>&copy;John Vincent Vicente 2025</p>
