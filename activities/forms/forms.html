@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <main>
+        <div class="form-row">
+        <form action="processing.html" method="post">
+            <label for="Full Name">Full Name:</label>
+            <input type="text" name="fullname" placeholder="Full Name" id="fullname">
+        </div>
+        <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" name="email" value="jayvee09@byuh.edu" id="email">
+        </div>
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass">
+        </div>
+        <div>
+            <label for="state">State:</label>
+            <select name="state" id="state">
+                <option value="blank"></option>
+                <option value="CD">Colorado</option>
+                <option value="HI">Hawaii</option>
+                <option value="UT">Utah</option>
+            </select>
+        </div>
+        <div>
+            <div>Year in School</div>
+            <label><input type="radio" name="year" value="Freshman">Freshman</label>
+            <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
+        </div>
+        <div class="form-row">
+            <input type="submit">
+        </div>
+        </form>
+        <h3>The form tag has an "action" attribute. What does it do?</h3>
+        <p>- Makes the submitted info go to a new page, just like clicking on a new link.</p>
+        <h3>The form tag has a "method" attribute. What does it do?</h3>
+        <p>- 2 options: Get or Host. </p>
+        <h3>What is the difference between a "POST" and a "GET"?</h3>
+        <p>Post - Changes data</p>
+        <p>Get - Read data only</p>
+    </main>
+    <footer>
+        &copy;John Vincent Vicente 2025
+    </footer>
+</body>
+</html>
