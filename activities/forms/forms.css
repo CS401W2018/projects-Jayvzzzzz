@@ -2,3 +2,53 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: beige;
 }
+fieldset{
+    background-color: antiquewhite;
+}
+legend {
+    background-color: rgb(194, 156, 53);
+    color: white;
+    padding: 10px;
+}
+.form-row input:not([type="submit"]){
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.form-row input[type="submit"] {
+    padding: 10px;
+    background-color: aquamarine;
+    color: blue;
+    font-size: 24px;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+.form-spacer {
+    width: 150px;
+    text-align: right;
+}
+.radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+@media ONLY screen and (max-width: 600px){
+    .form-row, .radio-row {
+        flex-direction: column;
+    }
+    .form-row label {
+        text-align: left;
+    }
+    .form-spacer {
+        text-align: left;
+    }
+}

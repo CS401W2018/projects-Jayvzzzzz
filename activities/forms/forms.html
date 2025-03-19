@@ -11,8 +11,10 @@
         <h1>Web Design</h1>
     </header>
     <main>
-        <div class="form-row">
         <form action="processing.html" method="post">
+            <fieldset> 
+                <legend>Account info</legend>
+            <div class="form-row">   
             <label for="Full Name">Full Name:</label>
             <input type="text" name="fullname" placeholder="Full Name" id="fullname">
         </div>
@@ -20,11 +22,11 @@
             <label for="email">Email:</label>
             <input type="email" name="email" value="jayvee09@byuh.edu" id="email">
         </div>
-        <div>
+        <div class="form-row">
             <label for="pass">Password:</label>
             <input type="password" name="password" id="pass">
         </div>
-        <div>
+        <div class="form-row">
             <label for="state">State:</label>
             <select name="state" id="state">
                 <option value="blank"></option>
@@ -33,14 +35,26 @@
                 <option value="UT">Utah</option>
             </select>
         </div>
-        <div>
-            <div>Year in School</div>
+        <div class="radio-row">
+            <div class="form-spacer">Year in School:</div>
             <label><input type="radio" name="year" value="Freshman">Freshman</label>
             <label><input type="radio" name="year" value="Sophomore">Sophomore</label>
         </div>
+        <div class="radio-row">
+            <div class="form-spacer"></div>
+            <label><input type="checkbox" name="agree"
+                id="agree">Remember Me</label>
+        </div>
         <div class="form-row">
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments"></textarea>
+        </div>
+        <div class="form-row">
+            <div class="form-spacer">
+            </div>
             <input type="submit">
         </div>
+        </fieldset>
         </form>
         <h3>The form tag has an "action" attribute. What does it do?</h3>
         <p>- Makes the submitted info go to a new page, just like clicking on a new link.</p>
@@ -49,6 +63,10 @@
         <h3>What is the difference between a "POST" and a "GET"?</h3>
         <p>Post - Changes data</p>
         <p>Get - Read data only</p>
+        <h3>What are different ways to style your form?</h3>
+        <p>- Through css (flex,padding,color,style, etc..)</p>
+        <h3>Why does the professor like to use flex?</h3>
+        <p>- Because it goes from desktop to mobile device easily</p>
     </main>
     <footer>
         &copy;John Vincent Vicente 2025
