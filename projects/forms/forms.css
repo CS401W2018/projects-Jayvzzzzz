@@ -11,7 +11,7 @@ header {
 }
 fieldset{
     background-color: #16A085;
-    width: 20px;
+    width: 40%;
     margin: auto;
 }
 legend {
@@ -47,9 +47,13 @@ legend {
     gap: 10px;
     margin: 10px 0;
 }
+textarea {
+    width: 60%;
+}
 footer {
     text-align: center;
     margin: 20px;
+    color: white;
 }
 
 @media ONLY screen and (max-width: 600px){
