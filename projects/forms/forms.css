@@ -1,0 +1,65 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #2C3E50;
+
+}
+header {
+    text-align: center;
+    background-color: rgb(18, 96, 96);
+    font-size: 25px;
+    color: #F1C40F;
+}
+fieldset{
+    background-color: #16A085;
+    width: 20px;
+    margin: auto;
+}
+legend {
+    background-color: rgb(194, 156, 53);
+    color: white;
+    padding: 10px;
+}
+.form-row input {
+    padding: 5px;
+    border-radius: 10px;
+}
+.form-row input[type="submit"] {
+    padding: 5px;
+    color: rgb(6, 6, 28);
+    font-size: 24px;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+.form-spacer {
+    width: 150px;
+    text-align: right;
+}
+.radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+@media ONLY screen and (max-width: 600px){
+    .form-row, .radio-row {
+        flex-direction: column;
+    }
+    .form-row label {
+        text-align: left;
+    }
+    .form-spacer {
+        text-align: left;
+    }
+}

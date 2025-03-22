@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1>BYUH MLBB Tournament Account</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="post">
+            <fieldset> 
+                <legend>Player Info</legend> 
+            <div class="form-row">   
+            <label for="Full Name">Full Name:</label>
+            <input type="text" name="fullname" placeholder="Full Name" id="fullname">
+        </div>
+        <div class="form-row">
+            <label for="IGN">IGN:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form-row">
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass">
+        </div>
+        <div class="radio-row">
+            <div class="form-spacer">Current Rank:</div>
+            <label><input type="radio" name="year" value="Freshman">Warrior</label>
+            <label><input type="radio" name="year" value="Sophomore">Elite</label>
+            <label><input type="radio" name="year" value="Sophomore">Master</label>
+            <label><input type="radio" name="year" value="Sophomore">Grandmaster</label>
+            <label><input type="radio" name="year" value="Sophomore">Epic</label>
+            <label><input type="radio" name="year" value="Sophomore">Legend</label>
+            <label><input type="radio" name="year" value="Sophomore">Mythic</label>
+        </div>
+        <div class="form-row">
+            <label for="state">Role:</label>
+            <select name="state" id="state">
+                <option value="blank"></option>
+                <option value="jungler">Jungler</option>
+                <option value="marksman">Marksman</option>
+                <option value="explane">Exp Lane</option>
+                <option value="support">Support</option>
+                <option value="tank">Tank</option>
+            </select>
+        </div>
+        <div class="radio-row">
+            <div class="form-spacer"></div>
+            <label><input type="checkbox" name="agree"
+                id="agree" required>I agree that the info I provided is true</label>
+        </div>
+        <div class="form-row">
+            <label for="comments">Suggestions for the upcoming tournament:</label>
+            <textarea name="comments" id="comments"></textarea>
+        </div>
+        <div class="form-row">
+            <div class="form-spacer">
+            </div>
+            <input type="submit">
+        </div>
+        </fieldset>
+        </form>
+    </main>
+    <footer>
+        &copy;John Vincent Vicente 2025
+    </footer>
+</body>
+</html>
