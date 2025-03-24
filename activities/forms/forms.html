@@ -79,13 +79,18 @@
             alert("Form Submitted");
 
             const fullname = document.getElementById('fullname').value;
-            console.log(fullname);
+            const password = document.getElementById('pass').value;
             const email = document.getElementById('email').value;
-            console.log(email);
             const age = document.getElementById('age').value;
-            console.log(age);
             const state = document.getElementById('state').value;
-            console.log(state);
+
+            const formData = {
+                fullname: fullname,
+                email: email,
+                password: pass
+            };
+
+            console.log(formData)
         });
     </script>
 </body>
