@@ -11,7 +11,7 @@
         <h1>Web Design</h1>
     </header>
     <main>
-        <form action="processing.html" method="post">
+        <form action="processing.html" method="post" id="myForm">
             <fieldset> 
                 <legend>Account info</legend>
             <div class="form-row">   
@@ -25,6 +25,10 @@
         <div class="form-row">
             <label for="pass">Password:</label>
             <input type="password" name="password" id="pass">
+        </div>
+        <div class="form-row">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age">
         </div>
         <div class="form-row">
             <label for="state">State:</label>
@@ -56,20 +60,33 @@
         </div>
         </fieldset>
         </form>
-        <h3>The form tag has an "action" attribute. What does it do?</h3>
-        <p>- Makes the submitted info go to a new page, just like clicking on a new link.</p>
-        <h3>The form tag has a "method" attribute. What does it do?</h3>
-        <p>- 2 options: Get or Host. </p>
-        <h3>What is the difference between a "POST" and a "GET"?</h3>
-        <p>Post - Changes data</p>
-        <p>Get - Read data only</p>
-        <h3>What are different ways to style your form?</h3>
-        <p>- Through css (flex,padding,color,style, etc..)</p>
-        <h3>Why does the professor like to use flex?</h3>
-        <p>- Because it goes from desktop to mobile device easily</p>
+        <h3>What is JavaScript? How did it get its name?</h3>
+        <p>- Sun Microsystems named it after JAVA and made it it's own language. It's an open source name you can use.</p>
+        <h3>What are the two ways you can run JavaScript?</h3>
+        <p>- In the DOM (inside of a webpage)</p>
+        <p>- nodejs (runs outside the browser) (express.js)</p>
+        <h3>What is the most popular front-end js library today?</h3>
+        <p>- JQuery</p>
+        <h3>What was the most popular front-end js library?</h3>
+        <p>- React.js</p>
     </main>
     <footer>
         &copy;John Vincent Vicente 2025
     </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();
+            alert("Form Submitted");
+
+            const fullname = document.getElementById('fullname').value;
+            console.log(fullname);
+            const email = document.getElementById('email').value;
+            console.log(email);
+            const age = document.getElementById('age').value;
+            console.log(age);
+            const state = document.getElementById('state').value;
+            console.log(state);
+        });
+    </script>
 </body>
 </html>
