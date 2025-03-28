@@ -14,15 +14,16 @@ document.getElementById('myForm').addEventListener('submit',function(event){
         age: age
     };
     console.log(formData)
-const xhr = new XMLHttpRequest();
-xhr.open("GET", "submit.json", true);
-xhr.setRequestHeader("Content-Type","application/json;charset=UTF-8");
-xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-        alert ('Form submitted succesfully.');
-    } else if (xhr.readystate === 4) {
-        alert('Error submitting form.');
-}
-};
-xhr.send(JSON.stringify(formData));
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "submit.json", true);
+    xhr.setRequestHeader("Content-Type","application/json;charset=UTF-8");
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            alert ('Form submitted succesfully.');
+        } else if (xhr.readystate === 4) {
+            alert('Error submitting form.');
+        }
+    };
+    console.log("Sending")
+    xhr.send(JSON.stringify(formData));
 });
