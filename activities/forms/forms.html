@@ -60,39 +60,14 @@
         </div>
         </fieldset>
         </form>
-        <h3>What is JavaScript? How did it get its name?</h3>
-        <p>- Sun Microsystems named it after JAVA and made it it's own language. It's an open source name you can use.</p>
-        <h3>What are the two ways you can run JavaScript?</h3>
-        <p>- In the DOM (inside of a webpage)</p>
-        <p>- nodejs (runs outside the browser) (express.js)</p>
-        <h3>What is the most popular front-end js library today?</h3>
-        <p>- JQuery</p>
-        <h3>What was the most popular front-end js library?</h3>
-        <p>- React.js</p>
+        <h3>What is AJAX?</h3>
+        <p>- It enables web pages to update content dynamically without requiring a full page reload.</p>
+        <h3>Why do you put your JS Code in a separate file?</h3>
+        <p>- To keep the html seperate. It also makes the form load faster.</p>
     </main>
     <footer>
         &copy;John Vincent Vicente 2025
     </footer>
-    <script>
-        document.getElementById('myForm').addEventListener('submit',function(event){
-            event.preventDefault();
-            alert("Form Submitted");
-
-            const fullname = document.getElementById('fullname').value;
-            const password = document.getElementById('pass').value;
-            const email = document.getElementById('email').value;
-            const age = document.getElementById('age').value;
-            const state = document.getElementById('state').value;
-
-            const formData = {
-                fullname: fullname,
-                email: email,
-                password: pass,
-                age: age
-            };
-
-            console.log(formData)
-        });
-    </script>
+    <script src="forms.js"></script>
 </body>
 </html>
