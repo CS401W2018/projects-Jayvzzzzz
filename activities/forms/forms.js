@@ -19,7 +19,9 @@ document.getElementById('myForm').addEventListener('submit',function(event){
     xhr.setRequestHeader("Content-Type","application/json;charset=UTF-8");
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
-            alert ('Form submitted succesfully.');
+            const response = JSON.parse(xhr.responseText);
+            document.getElementById("message").innerHTML = response.message ;
+            document.getElementById("myForm").innerHTML = "";
         } else if (xhr.readystate === 4) {
             alert('Error submitting form.');
         }

@@ -11,7 +11,7 @@
         <h1>BYUH MLBB Tournament Account</h1>
     </header>
     <main>
-        <form action="processing.html" method="post" id="myForm">
+        <form action="processing.html" method="get" id="myForm">
             <fieldset> 
                 <legend>Player Info</legend> 
             <div class="form-row">   
@@ -31,6 +31,7 @@
             <input type="password" name="password" id="pass">
         </div>
         <div class="radio-row">
+            <div class="form-spacer">Current Rank:</div>
             <input type="radio" id="warrior" name="rank" value="warrior">
             <label for="warrior">Warrior</label>
             <input type="radio" id="elite" name="rank" value="elite">
@@ -107,14 +108,16 @@
     xhr.setRequestHeader("Content-Type","application/json;charset=UTF-8");
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
-            alert ('Welcome to Mobile Legends');
+            const response = JSON.parse(xhr.responseText);
+            document.getElementById("message").innerHTML = response.message ;
+            document.getElementById("myForm").innerHTML = "";
         } else if (xhr.readystate === 4) {
             alert('Please Resubmit Form');
         }
     };
-    console.log("Sending")
     xhr.send(JSON.stringify(formData));
-        })
+    console.log(formData);
+    })
     </script>
 </body>
 </html>
