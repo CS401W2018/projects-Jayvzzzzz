@@ -31,13 +31,18 @@
             <input type="password" name="password" id="pass">
         </div>
         <div class="radio-row">
-            <div class="form-spacer">Current Rank:</div>
-            <label><input type="radio" name="rank" value="warrior">Warrior</label>
-            <label><input type="radio" name="rank" value="elite">Elite</label>
-            <label><input type="radio" name="rank" value="master">Master</label>
-            <label ><input type="radio" name="rank" value="epic">Epic</label>
-            <label><input type="radio" name="rank" value="legend">Legend</label>
-            <label><input type="radio" name="rank" value="mythic">Mythic</label>
+            <input type="radio" id="warrior" name="rank" value="warrior">
+            <label for="warrior">Warrior</label>
+            <input type="radio" id="elite" name="rank" value="elite">
+            <label for="elite">Elite</label>
+            <input type="radio" id="master" name="rank" value="master">
+            <label for="master">Master</label>
+            <input type="radio" id="epic" name="rank" value="epic">
+            <label for="epic">Epic</label>
+            <input type="radio" id="legend" name="rank" value="legend">
+            <label for="legend">Legend</label>
+            <input type="radio" id="mythic" name="rank" value="mythic">
+            <label for="mythic">Mythic</label>
         </div>
         <div class="form-row">
             <label for="role">Role:</label>
@@ -78,14 +83,23 @@
             const pass = document.getElementById('pass').value;
             const age = document.getElementById('age').value;
             const role = document.getElementById('role').value;
-            const rank = document.getElementById('rank').value;
 
+            let rank = "Not selected"; 
+            const ranks = ["warrior", "elite", "master", "epic", "legend", "mythic"];
+            for (let i = 0; i < ranks.length; i++) {
+                if (document.getElementById(ranks[i]).checked) {
+                    rank = document.getElementById(ranks[i]).value;
+                    break;
+                }
+            }
 
             const formData = {
-        fullname: fullname,
-        email: email,
-        password: pass,
-        age: age
+            fullname: fullname,
+            ign: ign,
+            password: pass,
+            age: age,
+            role: role,
+            rank: rank
     };
     console.log(formData)
     const xhr = new XMLHttpRequest();
