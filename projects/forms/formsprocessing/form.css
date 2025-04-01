@@ -56,6 +56,13 @@ footer {
     color: white;
 }
 
+#message {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #F1C40F;
+}
+
 @media ONLY screen and (max-width: 600px){
     .form-row, .radio-row {
         flex-direction: column;
