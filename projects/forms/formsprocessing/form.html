@@ -11,6 +11,7 @@
         <h1>BYUH MLBB Tournament Account</h1>
     </header>
     <main>
+        <div id="message"></div>
         <form action="processing.html" method="get" id="myForm">
             <fieldset> 
                 <legend>Player Info</legend> 
@@ -102,7 +103,9 @@
             role: role,
             rank: rank
     };
+
     console.log(formData)
+    
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "submit.json", true);
     xhr.setRequestHeader("Content-Type","application/json;charset=UTF-8");
