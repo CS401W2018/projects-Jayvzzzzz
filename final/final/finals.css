@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darksalmon;
+}
+header h1{
+    text-align: center;
+    background-color: rgb(230, 91, 27);
+    margin: 0;
+}
+.top {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+}
+.info {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    background-color: rgba(202, 158, 105, 0.801);
+    color: rgb(29, 27, 26);
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+    background-color: rgb(231, 150, 27);
+}
