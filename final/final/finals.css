@@ -116,6 +116,6 @@ main p:first-letter {
     }
     main {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }
