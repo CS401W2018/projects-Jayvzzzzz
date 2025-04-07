@@ -37,6 +37,10 @@ nav a.current {
     color: blanchedalmond;
     text-decoration: underline;
 }
+aside {
+    width: 500px;
+    order: 2;
+}
 .name {
     text-align: center;
     font-size: 30px;
@@ -47,14 +51,14 @@ table {
 table td {
     text-align: center;
 }
-.schedule {
+.table {
     border: 1px solid black;
     box-shadow: 5px 6px 8px;
     border-radius: 10px;
     border-spacing: 5px;
     border-collapse: collapse;
 }
-.schedule th, .schedule td {
+.table th, .table td {
     border: 1px solid black;
     padding: 5px;
     vertical-align: top;
@@ -64,19 +68,15 @@ a {
     text-decoration: none;
     color: rgb(57, 16, 241)
 }
-.schedule thead {
+.table thead {
     background-color: bisque;
     color: rgb(54, 167, 167);
 }
-.schedule tfoot tr {
+.table tfoot tr {
     background-color: beige;
 }
-.schedule tr:nth-child(even) {
+.table tr:nth-child(even) {
     background-color: blanchedalmond;
-}
-main p:first-letter {
-    font-size: 30px;
-    color: brown;
 }
 
 .row {
@@ -89,7 +89,8 @@ main p:first-letter {
     width: 350px;
 }
 .pic1 img{
-    width: 750px;
+    width: 650px;
+    margin-top: 50px;
 }
 .pic2 img {
     width: 450px;
