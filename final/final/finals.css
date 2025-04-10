@@ -78,7 +78,10 @@ a {
 .table tr:nth-child(even) {
     background-color: blanchedalmond;
 }
-
+.ptext{
+    width: 50%;
+    text-align: center;
+}
 .row {
     display: flex;
     justify-content: space-evenly;
