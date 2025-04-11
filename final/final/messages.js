@@ -16,7 +16,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     console.log("Form Data:", formData);
 
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", "submit.json", true);
+    xhr.open("POST", "submit.json", true);
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
     xhr.onreadystatechange = function () {
