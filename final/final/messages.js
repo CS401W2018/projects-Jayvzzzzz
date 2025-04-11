@@ -4,13 +4,13 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const firstname = document.getElementById('firstname').value;
     const lastname = document.getElementById('lastname').value;
     const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+    const mess = document.getElementById('mess').value;
 
     const formData = {
         firstname: firstname,
         lastname: lastname,
         email: email,
-        message: message
+        mess: mess
     };
 
     console.log("Form Data:", formData);
