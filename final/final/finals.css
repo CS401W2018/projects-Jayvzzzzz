@@ -87,12 +87,17 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.message {
+.messa {
     text-decoration: none;
     font-size: 20px;
     color: rgb(88, 38, 9);
 }
-.message:hover{
+.message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.messa:hover{
     color: bisque;
 }
 .pic img{
