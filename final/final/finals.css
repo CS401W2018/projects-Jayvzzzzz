@@ -103,13 +103,14 @@ a {
 .form-row input:not([type="submit"]){
     padding: 5px;
     border-radius: 5px;
-    background-color: aqua;
 }
 .form-row input[type="submit"] {
     padding: 10px;
-    background-color: aquamarine;
-    color: blue;
-    font-size: 24px;
+    font-size: 20px;
+}
+.form-row input[type="submit"]:hover{
+    background-color: bisque;
+    cursor: grab;
 }
 .form-row {
     display: flex;

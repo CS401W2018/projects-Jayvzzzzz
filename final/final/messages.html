@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="finals.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <main>
+        <nav>
+            <a href="finals.html">Home Page</a>
+            <a href="parents.html">Raymond & Marylene</a>
+            <a href="jvjap.html">JV & Jap</a>
+            <a href="jj.html">Jayjay</a>
+            <a href="jaimee.html">Jaimee</a>
+            <a href="thomas.html">Thomas</a>
+        </nav>
+        <div id="message"></div>
+        <form action="processing.html" method="get" id="myForm">
+            <fieldset> 
+                <legend>User Information</legend>
+            <div class="form-row">   
+            <label for="First Name">First Name:</label>
+            <input type="text" name="firstname" placeholder="First name" id="firstname">
+        </div>
+        <div class="form-row">
+            <label for="pass">Last Name:</label>
+            <input type="lastname" name="lastname" placeholder="Last Name" id="lastname">
+        </div>
+        <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Email" id="email">
+        </div>
+        <div class="form-row">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message"></textarea>
+        </div>
+        <div class="radio-row">
+            <div class="form-spacer"></div>
+            <label><input type="checkbox" name="agree"
+                id="agree" required>I have reviewed my message and confirm it is correct.</label>
+        </div>
+        <div class="form-row">
+            <div class="form-spacer">
+            </div>
+            <input type="submit">
+        </div>
+        </fieldset>
+        </form>
+    </main>
+    <footer>
+        &copy;John Vincent Vicente 2025
+    </footer>
+    <script src="forms.js"></script>
+</body>
+</html>
