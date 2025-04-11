@@ -123,7 +123,7 @@ a {
     margin-top: 50px;
 }
 .pic2 img {
-    width: 450px;
+    width: auto;
 }
 
 /* forms css */
@@ -173,13 +173,21 @@ a {
     .pic img{
         margin-bottom: 20px;
         width: 90%;
+        margin-left: 30px;
     }
     .pic1 img{
         margin-bottom: 20px;
         width: 90%;
+        margin-left: 30px;
+    }
+    .pic2 img{
+        margin-bottom: 20px;
+        width: 90%;
+        margin-left: 30px;
     }
     main {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 }
