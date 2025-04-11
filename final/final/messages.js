@@ -30,7 +30,5 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
             }
         }
     };
-
-    console.log("Sending...");
     xhr.send(JSON.stringify(formData));
 });
