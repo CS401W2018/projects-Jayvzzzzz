@@ -87,7 +87,14 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
+.message {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(88, 38, 9);
+}
+.message:hover{
+    color: bisque;
+}
 .pic img{
     width: 350px;
 }
