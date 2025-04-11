@@ -92,7 +92,7 @@ a {
     font-size: 20px;
     color: rgb(88, 38, 9);
 }
-.message {
+#message {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-align: center;
