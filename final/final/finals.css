@@ -93,6 +93,9 @@ a {
 .fullwidth {
     width: 100%;
 }
+.message {
+    display: flex;
+}
 .row {
     display: flex;
     justify-content: space-evenly;
@@ -141,9 +144,20 @@ footer a:hover {
     color: bisque;
 }
 /* forms css */
+fieldset {
+    width: 30%;
+    margin: auto;
+}
+textarea {
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
 .form-row input:not([type="submit"]){
     padding: 5px;
     border-radius: 5px;
+    width: 50%;
 }
 .form-row input[type="submit"] {
     padding: 10px;
