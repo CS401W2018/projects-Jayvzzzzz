@@ -127,6 +127,9 @@ a {
 .pic2 img {
     width: 500px;
 }
+h2 {
+    text-align: center;
+}
 footer a {
     color: rgb(7, 4, 4);
     font-size: 15px;
