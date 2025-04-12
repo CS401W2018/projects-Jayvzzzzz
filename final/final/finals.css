@@ -127,7 +127,16 @@ a {
 .pic2 img {
     width: 500px;
 }
-
+footer a {
+    color: rgb(7, 4, 4);
+    font-size: 15px;
+    border: solid thin;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer a:hover {
+    color: bisque;
+}
 /* forms css */
 .form-row input:not([type="submit"]){
     padding: 5px;
