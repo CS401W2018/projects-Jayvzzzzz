@@ -193,6 +193,8 @@ textarea {
     }
     nav a {
         border-bottom: thin solid #fff;
+        text-align: center;
+        margin: ;
     }
     .row {
         flex-direction: column;
