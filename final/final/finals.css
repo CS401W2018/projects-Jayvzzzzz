@@ -36,7 +36,7 @@ nav a:hover {
     background-color: rgb(231, 150, 27);
 }
 nav a.current {
-    background-color: rgb(231, 150, 27); /* match your hover */
+    background-color: rgb(231, 150, 27);
     color: blanchedalmond;
     text-decoration: underline;
 }
@@ -125,7 +125,6 @@ a {
 }
 .pic1 img{
     width: 650px;
-    margin-top: 50px;
 }
 .pic2 img {
     width: 500px;
@@ -143,6 +142,7 @@ footer a {
 footer a:hover {
     color: bisque;
 }
+
 /* forms css */
 fieldset {
     width: 30%;
@@ -194,7 +194,6 @@ textarea {
     nav a {
         border-bottom: thin solid #fff;
         text-align: center;
-        margin: ;
     }
     .row {
         flex-direction: column;
